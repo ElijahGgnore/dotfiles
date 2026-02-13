@@ -11,26 +11,24 @@ $all\
 $fill \
 \
 $status\
-$cmd_duration\
 $jobs\
 $os\
 $container\
 $netns\
 $shell\
-$battery ╮\
-\
-$line_break\
+$battery\
+$time ╮ $line_break\
 \
 ╰ $directory\
 $character\
 """
 
-right_format = "$time ╯"
+right_format = "$cmd_duration╯"
 
 [battery]
-format = '[$symbol$percentage]($style)'
 charging_symbol = "[ ](blue)"
 unknown_symbol = "? "
+disabled = true
 
 [[battery.display]]
 threshold = 15
