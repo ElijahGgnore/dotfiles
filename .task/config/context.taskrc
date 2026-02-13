@@ -1,0 +1,14 @@
+context.learning.read=+learning
+context.learning.write=+learning
+
+context.sys_administration.read=+sys_administration
+context.sys_administration.write=+sys_administration
+
+context.entertainment.read=+entertainment
+context.entertainment.write=+entertainment
+
+context.shopping.read=+shopping
+context.shopping.write=+shopping
+
+context.home.read=+home
+context.home.write=+home

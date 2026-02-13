@@ -1,0 +1,9 @@
+data.location=$HOME/.task
+
+include ~/.task/config/settings.taskrc
+include ~/.task/config/context.taskrc
+include ~/.task/config/appearence.taskrc
+include ~/.task/config/taskwarrior-tui.taskrc
+include ~/.task/config/private.taskrc
+
+# ------------GENERATED------------------
