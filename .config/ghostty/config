@@ -1,0 +1,2 @@
+config-file = ./keybindings.conf
+config-file = ./appearance.conf
