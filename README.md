@@ -94,3 +94,10 @@ More at:
 - `archlinux-xdg-menu` required
 - <https://github.com/egnrse/updateKDEcache.hook> contains the hook to automate
   app discovery after pacman operations
+
+## Notes
+
+### ZSH
+
+List all keymaps `bindkey -l`
+List bindings in a given keymap `bindkey -M <keymap>`
