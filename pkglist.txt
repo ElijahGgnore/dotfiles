@@ -24,6 +24,7 @@ taskwarrior-tui
 thunderbird
 timew
 tmux
+ttf-hack-nerd
 waybar
 xdg-desktop-portal-hyprland
 yazi
