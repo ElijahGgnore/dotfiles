@@ -11,6 +11,7 @@ hypridle
 hyprland
 hyprlock
 hyprpaper
+keychain
 lazygit
 network-manager-applet
 nvim

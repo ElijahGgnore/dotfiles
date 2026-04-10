@@ -5,6 +5,7 @@ source $HOME/.zsh/completion.zsh
 source $HOME/.zsh/keybindings.zsh
 source $HOME/.zsh/plugins.zsh
 source $HOME/.zsh/prompt.zsh
+source $HOME/.zsh/other.zsh
 
 fastfetch
 
