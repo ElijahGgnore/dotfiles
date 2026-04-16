@@ -51,8 +51,12 @@ zle -N down-line-or-beginning-search
 [[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
 
 # Shift, Alt, Ctrl and Meta modifiers
+autoload -Uz forward-word-match backward-word-match
+zle -N forward-word-match
+zle -N backward-word-match
+
 key[Control-Left]="${terminfo[kLFT5]}"
 key[Control-Right]="${terminfo[kRIT5]}"
 
-[[ -n "${key[Control-Left]}"  ]] && bindkey -- "${key[Control-Left]}"  backward-word
-[[ -n "${key[Control-Right]}" ]] && bindkey -- "${key[Control-Right]}" forward-word
+[[ -n "${key[Control-Left]}"  ]] && bindkey -- "${key[Control-Left]}"  backward-word-match
+[[ -n "${key[Control-Right]}" ]] && bindkey -- "${key[Control-Right]}" forward-word-match
