@@ -43,6 +43,7 @@ def start():
             print("Trying to terminate the timer process", file=sys.stderr)
             p.terminate()
         return False
+    return True
 
 
 def stop():
