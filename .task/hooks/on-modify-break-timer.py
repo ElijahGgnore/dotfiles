@@ -82,12 +82,15 @@ def main():
 
     delta = is_started(new) - is_started(old)
 
-    if count_active_tasks() + delta > 0:
-        if not start():
-            exit_with_some_errors()
-    else:
-        if not stop():
-            exit_with_some_errors()
+    # This block doesn't need to run if the
+    # number of active tasks doesn't change.
+    if delta != 0:
+        if count_active_tasks() + delta > 0:
+            if not start():
+                exit_with_some_errors()
+        else:
+            if not stop():
+                exit_with_some_errors()
 
     json.dump(new, sys.stdout)
     exit(0)
