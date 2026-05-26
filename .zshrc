@@ -7,6 +7,6 @@ source $HOME/.zsh/plugins.zsh
 source $HOME/.zsh/prompt.zsh
 source $HOME/.zsh/other.zsh
 
-fastfetch
+if command -v fastfetch > /dev/null; then fastfetch; fi
 
-eval "$(zoxide init zsh)"
+if command -v zoxide > /dev/null; then eval "$(zoxide init zsh)"; fi
