@@ -12,3 +12,6 @@ context.shopping.write=+shopping
 
 context.home.read=+home
 context.home.write=+home
+
+context.other.read=+other
+context.other.write=+other
