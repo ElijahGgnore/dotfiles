@@ -1,5 +1,5 @@
-hl.bind(MainMod .. ' + CTRL + T', hl.dsp.exec_cmd(LaunchInTerminal .. 'tmux')) -- [T]erminal
-hl.bind(MainMod .. ' + CTRL + L', hl.dsp.exec_cmd(LaunchInTerminal .. 'tmux attach')) -- [L]ast
+hl.bind(MainMod .. ' + CTRL + T', hl.dsp.exec_cmd(LaunchInTerminal .. 'zellij')) -- [T]erminal
+hl.bind(MainMod .. ' + CTRL + L', hl.dsp.exec_cmd(LaunchInTerminal .. 'zellij -l "welcome" attach -c welcome')) -- [L]ast
 hl.bind(MainMod .. ' + CTRL + W', hl.dsp.exec_cmd(Browser)) -- [W]eb
 hl.bind(MainMod .. ' + CTRL + F', hl.dsp.exec_cmd(FileManager)) -- [F]ile
 hl.bind(MainMod .. ' + CTRL + M', hl.dsp.exec_cmd(Messenger)) -- [M]essenger

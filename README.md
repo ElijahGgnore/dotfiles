@@ -63,7 +63,7 @@ yay -S --needed - < pkglist-aur.txt
 | TUI file manager      | yazi        |
 | Fast terminal         | alacritty   |
 | Feature-rich terminal | ghostty     |
-| Multiplexer           | tmux        |
+| Multiplexer           | zellij      |
 | Videoplayer           | haruna      |
 | Image viewer          | gwenview    |
 | Document viewer       | okular      |
