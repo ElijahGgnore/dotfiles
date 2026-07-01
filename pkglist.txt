@@ -12,6 +12,7 @@ hyprland
 hyprlock
 hyprpaper
 hyprpicker
+hyprpolkitagent
 keychain
 lazygit
 network-manager-applet
