@@ -1,0 +1,8 @@
+require 'modules.noctalia.binds.core'
+require 'modules.noctalia.binds.media'
+require 'modules.noctalia.binds.monitor'
+require 'modules.noctalia.binds.pickers'
+require 'modules.noctalia.binds.power_profiles'
+require 'modules.noctalia.binds.screenshots'
+require 'modules.noctalia.binds.session_management'
+require 'modules.noctalia.binds.minimal_mode'

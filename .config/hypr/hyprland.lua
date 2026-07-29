@@ -10,4 +10,10 @@ require 'modules.look_and_feel'
 require 'modules.misc'
 require 'modules.monitors'
 require 'modules.windows_and_workspaces'
-hl.config { debug = { disable_logs = false } }
+require 'modules.noctalia.init'
+
+-- For Noctalia Color templates
+require('noctalia').apply_theme()
+
+-- For Noctalia Color templates
+require("noctalia").apply_theme()

@@ -9,7 +9,7 @@ local function new_special_workspace(name, key, on_created_empty)
   hl.bind(MainMod .. ' + SHIFT + ' .. key, hl.dsp.window.move { workspace = 'special:' .. name })
 end
 
-new_special_workspace('scratchpad', 'S') -- [S]cratchpad
+-- new_special_workspace('scratchpad', 'S') -- [S]cratchpad
 new_special_workspace('terminal', 'T', LaunchInTerminal .. 'zellij attach -c dropdown_terminal') -- [T]erminal
 new_special_workspace('messenger', 'M', Messenger) -- [M]ssenger
 new_special_workspace('email', 'E', EmailClient) -- [E]mail

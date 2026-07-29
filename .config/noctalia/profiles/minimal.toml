@@ -1,0 +1,32 @@
+[shell.animation]
+enabled = false
+
+[bar.main]
+start = ["launcher", "wallpaper", "workspaces", "power_profile"]
+center = ["clock"]
+end = [
+  "tray",
+  "notifications",
+  "clipboard",
+  "keyboard_layout",
+  "network",
+  "bluetooth",
+  "volume",
+  "brightness",
+  "battery",
+  "control-center",
+  "session"
+]
+
+[widget.clock]
+format = "{:%H:%M}"
+
+[dock]
+enabled = false
+auto_hide = false
+
+[system.monitor]
+enabled = false
+
+[weather]
+enabled = false

@@ -1,7 +1,7 @@
 [general]
 import = [
-        "~/.config/alacritty/keybindings.toml",
-        "~/.config/alacritty/fonts.toml",
-        "~/.config/alacritty/opacity.toml",
-        "~/.config/alacritty/cyberdream.toml",
+  "~/.config/alacritty/keybindings.toml",
+  "~/.config/alacritty/fonts.toml",
+  "~/.config/alacritty/opacity.toml",
+  "~/.config/alacritty/themes/noctalia.toml",
 ]

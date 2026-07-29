@@ -1,0 +1,82 @@
+[bar]
+order = ["main"]
+
+[bar.main]
+start = [
+  "launcher",
+  "wallpaper",
+  "workspaces",
+  "cpu",
+  "ram",
+  "temp",
+  "power_profile"
+]
+center = ["clock"]
+end = [
+  "media",
+  "tray",
+  "notifications",
+  "clipboard",
+  "keyboard_layout",
+  "network",
+  "bluetooth",
+  "volume",
+  "brightness",
+  "battery",
+  "control-center",
+  "session"
+]
+margin_ends = 0
+padding = 32
+radius_top_left = 0
+radius_top_right = 0
+thickness = 45
+widget_spacing = 12
+
+[battery]
+warning_threshold = 20
+
+[dock]
+auto_hide = true
+enabled = true
+launcher_position = "start"
+layer = "overlay"
+reserve_space = false
+
+[idle]
+behavior_order = ["lock", "screen-off", "lock-and-suspend"]
+pre_action_fade_seconds = 3
+
+[idle.behavior.lock]
+action = "lock"
+enabled = true
+timeout = 600.0
+
+[idle.behavior.lock-and-suspend]
+action = "lock_and_suspend"
+enabled = true
+timeout = 900.0
+
+[idle.behavior.screen-off]
+action = "screen_off"
+enabled = true
+timeout = 660.0
+
+[plugins]
+enabled = [
+  "noctalia/kaomoji",
+]
+
+[shell]
+font_family = "Hack Nerd Font"
+polkit_agent = true
+
+[theme.templates]
+builtin_ids = ["alacritty", "gtk3", "gtk4", "hyprland", "kcolorscheme"]
+community_ids = ["zen-browser"]
+
+[widget.clock]
+format = "{:%H:%M:%S}"
+
+[weather]
+enabled = false
