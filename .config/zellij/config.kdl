@@ -448,6 +448,14 @@ keybinds clear-defaults=true {
             NewPane
             SwitchToMode "locked"
         }
+        bind "Ctrl s" {
+            NewPane "Down"
+            SwitchToMode "locked"
+        }
+        bind "Ctrl v" {
+            NewPane "Right"
+            SwitchToMode "locked"
+        }
         bind "Ctrl o" {
             MoveTab "right"
             SwitchToMode "locked"
