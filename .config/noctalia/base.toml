@@ -71,6 +71,9 @@ enabled = [
 font_family = "Hack Nerd Font"
 polkit_agent = true
 
+[shell.screenshot]
+confirm_region = true
+
 [theme.templates]
 builtin_ids = ["alacritty", "gtk3", "gtk4", "hyprland", "kcolorscheme"]
 community_ids = ["zen-browser"]
