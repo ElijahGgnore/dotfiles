@@ -14,8 +14,8 @@ hl.bind(MainMod .. ' + SHIFT + BRACKETRIGHT', hl.dsp.window.move { workspace = '
 hl.bind(MainMod .. ' + SHIFT + BRACKETLEFT', hl.dsp.window.move { workspace = '-1' })
 
 -- Scroll workspaces with mouse wheel
-hl.bind(MainMod .. ' + mouse_down', hl.dsp.focus { workspace = '+1' })
-hl.bind(MainMod .. ' + mouse_up', hl.dsp.focus { workspace = '-1' })
+hl.bind(MainMod .. ' + mouse_down', hl.dsp.focus { workspace = '-1' })
+hl.bind(MainMod .. ' + mouse_up', hl.dsp.focus { workspace = '+1' })
 
 -- Move current window accross workspaces with mouse wheel
 hl.bind(MainMod .. ' + SHIFT + mouse_down', hl.dsp.window.move { workspace = '+1' })
