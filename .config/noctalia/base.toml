@@ -36,13 +36,6 @@ widget_spacing = 12
 [battery]
 warning_threshold = 20
 
-[dock]
-auto_hide = true
-enabled = true
-launcher_position = "start"
-layer = "overlay"
-reserve_space = false
-
 [idle]
 behavior_order = ["lock", "screen-off", "lock-and-suspend"]
 pre_action_fade_seconds = 3
