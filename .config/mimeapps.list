@@ -20,6 +20,7 @@ audio/mpeg=audacious.desktop
 audio/x-m4a=audacious.desktop
 text/x-tex=nvim.desktop
 x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+inode/directory=org.kde.dolphin.desktop
 
 [Added Associations]
 x-scheme-handler/http=zen.desktop;
